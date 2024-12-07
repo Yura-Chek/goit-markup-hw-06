@@ -127,10 +127,10 @@
   border-top: none;
 } */
 
-.basement {
+/* .basement {
   background-color: #2e2f42;
   padding: 100px 0;
-}
+} */
 
 /* .footer-text {
   font-weight: 400;
@@ -155,14 +155,14 @@
   align-items: baseline;
 } */
 
-.footer-cont {
+/* .footer-cont {
   margin-right: 120px;
 }
 
 .logo-p {
   display: flex;
   align-items: baseline;
-}
+} */
 
 /* .text-social {
   font-weight: 500;
@@ -178,9 +178,9 @@
   gap: 16px;
 } */
 
-.footer-social {
+/* .footer-social {
   margin-right: 80px;
-}
+} */
 
 /* .footer-list-item {
   width: 40px;
