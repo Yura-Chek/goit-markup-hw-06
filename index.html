@@ -23,7 +23,7 @@
     <header class="header">
       <div class="nav-menu container">
         <nav class="navigat">
-          <a href="./index.html" class="nav"
+          <a href="./index.html" class="nav logo-nav"
             >Web<span class="logo-studio">Studio</span>
           </a>
           <ul class="nav-list">
@@ -50,7 +50,78 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <!-- </div> -->
+      </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg class="modal-form-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+              <li>
+                <a href="./index.html" class="mobile-nav-item mobile-item-one"
+                  >Studio</a
+                >
+              </li>
+              <li><a href="" class="mobile-nav-item">Portfolio</a></li>
+              <li><a href="" class="mobile-nav-item">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="mobile-contacts">
+            <ul class="mobile-contacts-link">
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-contacts-link-item"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="mobile-contacts-link-item"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="social-list">
+            <ul class="social-list">
+              <li class="list-item">
+                <a href="#" class="socials-link"
+                  ><svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="socials-link"
+                  ><svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="socials-link"
+                  ><svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="socials-link"
+                  ><svg class="social-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -125,7 +196,7 @@
       </section>
 
       <!-- TEAM -->
-      <section class="section-third">
+      <section class="section-third hidden">
         <div class="container">
           <h2 class="section-header">Our Team</h2>
           <ul class="team-list">
@@ -295,7 +366,7 @@
       </section>
 
       <!-- PORTFOLIO -->
-      <section class="section-fourth">
+      <section class="section-fourth hidden">
         <div class="container">
           <h2 class="section-header">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -418,7 +489,7 @@
       </section>
     </main>
 
-    <footer class="basement">
+    <footer class="basement hidden">
       <!-- <div class="footer"> -->
       <div class="container logo-p">
         <div class="footer-cont">
@@ -483,7 +554,7 @@
     </footer>
 
     <!-- MODAL -->
-    <div class="modal-overlay">
+    <div class="modal-overlay hidden">
       <div class="modal">
         <button class="modal-form-button" type="button">
           <svg class="modal-form-svg" width="8" height="8">
